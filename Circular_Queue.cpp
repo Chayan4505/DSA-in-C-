@@ -12,7 +12,7 @@ class Queue{
     Queue(int capacity){
         this->capacity = capacity;
         arr = new int[capacity];
-        currSize = 0;;
+        currSize = 0; 
 
         f = 0;
         r = -1;
